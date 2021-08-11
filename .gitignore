@@ -1,0 +1,10 @@
+__pycache__/
+lightning_logs/
+datasets/
+.ipynb_checkpoints/
+*.egg-info
+i3d_pretrained_400.pt
+*.jpg
+# *.mp4
+data03
+*.gz
