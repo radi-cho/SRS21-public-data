@@ -13,7 +13,6 @@ class VideoGenerator():
 
     def gen_video(self):
         if not os.path.isfile(os.path.join(self.image_folder, f'{self.image_counter}.jpg')):
-            print('THE END')
             return True
 
         if self.video_counter > MAX_VIDEOS:
